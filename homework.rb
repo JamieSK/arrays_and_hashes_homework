@@ -1,3 +1,5 @@
+require 'pp'
+
 puts '',"Part A -"
 puts
 
@@ -73,4 +75,4 @@ users['Jamie'] = {
     :favourite_numbers => [23, Math::PI, 4],
     :home_town => 'Leighton Buzzard'
    }
-puts users
+pp users
